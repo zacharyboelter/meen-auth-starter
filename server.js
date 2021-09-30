@@ -3,8 +3,6 @@ require('dotenv').config();
 // Dependencies
 const express = require('express');
 const app = express();
-
-// Dependencies 
 const mongoose = require('mongoose');
 
 // Database Configuration
@@ -26,11 +24,6 @@ app.use(express.urlencoded({ extended: true }));
 // Routes / Controllers
 const userController = require('./controllers/users');
 app.use('/users', userController);
-
-
-
-
-
 
 
 
