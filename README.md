@@ -13,3 +13,10 @@ SECRET=yourSecret
 ```
 * npm i
 * nodemon
+
+
+* Users Create action --> Register a new user
+
+* Sessions Create action ---> Creates cookie, logs a user in
+
+* Sessions DESTROY (DELETE) action ---> Logs a user out. Deletes the cookie
